@@ -1,4 +1,4 @@
-body {
+body, html {
     background-color: black;
     background-image: url(img/pexels-fwstudio-139312.jpg);
     background-size: cover;
@@ -9,20 +9,24 @@ body {
     margin: 0px;
 }
 div#img {
-    max-width: 340px;
-    max-height: 511px;
+    max-width: 400px;
+    max-height: 450px;
     margin: auto;
 }
 img {
-    max-width: 342px;
-    max-height: 511px;
+    max-width: 400px;
+    max-height: 450px;
     margin: auto;
-    vertical-align: middle;
 }
 div#iframe {
-    max-width: 342px;
-    max-height: 511px;
+    max-width: 400px;
+    max-height: 450px;
     margin: auto;
-    transform: translate(5.5%, 210%);
+    transform: translate(4%, 120%);
     vertical-align: middle;
+    overflow: hidden;
+}
+iframe {
+    max-width: 250px;
+    overflow: hidden;
 }
