@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    background-image: url(img/pexels-fwstudio-139312.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 0px;
+    margin: 0px;
+}
+div#img {
+    max-width: 340px;
+    max-height: 511px;
+    margin: auto;
+}
+img {
+    max-width: 342px;
+    max-height: 511px;
+    margin: auto;
+    vertical-align: middle;
+}
+div#iframe {
+    max-width: 342px;
+    max-height: 511px;
+    margin: auto;
+    transform: translate(5.5%, 210%);
+    vertical-align: middle;
+}
