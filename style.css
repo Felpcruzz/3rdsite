@@ -23,11 +23,12 @@ div#iframe {
     max-width: 350px;
     max-height: 450px;
     margin: auto;
-    transform: translate(5%, 131%);
+    transform: translate(5%, 110%);
     vertical-align: middle;
     overflow: hidden;
 }
 iframe {
     max-width: 270px;
     overflow: hidden;
+    height: 60vh;
 }
