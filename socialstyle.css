@@ -23,7 +23,7 @@ a {
     background-color: darkred;
     text-decoration: none;
     color: white;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
 }
 img {
@@ -32,4 +32,5 @@ img {
 }
 a:hover {
     background-color: red;
+    color: rgb(252, 252, 184);
 }
