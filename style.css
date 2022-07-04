@@ -50,4 +50,5 @@ section#socialnet > a > img {
     height: 50px;
     border-radius: 50%;
     box-sizing: border-box;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.438)
 }
