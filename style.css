@@ -36,3 +36,18 @@ iframe#tela {
     width: 260px;
     height: 350px;
 }
+section#socialnet {
+    text-align: right;
+}
+section#socialnet > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.808);
+    transform: translate(-15px);
+    transition: transform .5s;
+}
+section#socialnet > a > img {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
