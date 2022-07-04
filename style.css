@@ -24,9 +24,15 @@ section#tablet {
     background-size: contain;
     height: 450px;
     width: 300px;
-    background-color: blue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+iframe#tela {
+    position: relative;
+    top: 45px;
+    left: 18px;
+    width: 260px;
+    height: 350px;
 }
